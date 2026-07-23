@@ -1,0 +1,19 @@
+function checkGender() {
+
+    let gender = prompt("Enter your gender: Male or Female");
+
+    if (gender.toLowerCase() === "female") {
+        alert("You are a girl!👧🏽");
+    } 
+    
+    else if (gender.toLowerCase() === "male") {
+        alert("You are a boy! 👦🏽");
+    } 
+    
+    else {
+        alert("Please enter Male or Female");
+    }
+
+}
+
+checkGender();
